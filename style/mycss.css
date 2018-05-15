@@ -1,0 +1,84 @@
+body, html {
+    font-family: SansSerif, Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+    background-color: #ffffff;
+    color: #000000;
+	margin: 0px 0px;
+    height: 100%;
+    background-image: url("../IMG_4767.JPG"),url("../IMG_4767_SMALL.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h3{
+    font-weight:bold;
+}
+
+p {
+    font-family: SansSerif, Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    color: #000000;
+}
+
+.tx {
+    /* Align text div in page */
+    position: relative;
+    float: left;
+    /*top: 50px;*/
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 25px;
+}
+
+a{
+	color: #808080;
+	text-decoration:none;
+}
+a:active{
+	color: #808080;
+	text-decoration:none;
+}
+a:hover{
+	color: #a5a5a5;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+li{
+    margin: 15px 0;
+}
+
+.refs{
+	margin-left: 0px;
+	text-indent: -40px;}
+
+.mybtn{
+    color: #808080;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    padding: 0 0;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+}
+.mybtn:hover{
+	color: #a5a5a5;
+	cursor: pointer;
+    border: 0;
+}
+
+/*i{
+    color: #353535;
+    font-size: 48px;
+}
+i:hover{
+    color: #808080;
+}*/
+
+td {
+    padding-bottom: 15px;
+}
