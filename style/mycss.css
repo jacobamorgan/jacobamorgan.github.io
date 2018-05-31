@@ -43,8 +43,12 @@ a:active{
 	text-decoration:none;
 }
 a:hover{
-	color: #a5a5a5;
+	color: #000000;
 	cursor: pointer;
+	text-decoration:none;
+}
+a:focus{
+	color: #808080;
 	text-decoration:none;
 }
 
@@ -62,13 +66,15 @@ li{
     border: 0;
     padding: 0 0;
     font-weight: bold;
-    text-decoration: underline;
     display: inline-block;
 }
 .mybtn:hover{
-	color: #a5a5a5;
+	color: #000000;
 	cursor: pointer;
     border: 0;
+}
+.mybtn:focus{
+    outline:0;
 }
 
 /*i{
